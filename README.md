@@ -4,7 +4,7 @@ This rest web service allows you to
 - Find the nearest shop if we supply the location as longitude and latitude
 ---------------------------
 Platform:
-Gradle 2.3
+Gradle 4.0
 Java 8
 -----------------------------
 Build
