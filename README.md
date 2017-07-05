@@ -1,38 +1,6 @@
 # db-geolocator-api
 This rest web service allows you to
 - Add a shop in application memory array with its location
-- Find the nearest shop if we supply the location as longitude and lattitude
-
-Platform:
-Gradle 2.3
-Java 8
-
-Build
-
-Since it is gradle based java application use the following to package it in a jar.
-
-gradle build
-To build without running tests
-
-gradle build -x test
-On successful build the jar can be found at build/libs/ path.
-
-Or One can Use Eclipse/ STS Plugin gor building and running
-
-Run
-Running the application is as easy as building and a one step process. Once you have the jar it can be run with the following command.
-
-java -jar path/to/jar/db-retail-manager-0.1.0.jar
-During development the following command will be useful to run without jar.
-
-gradle run
-You will see the following message after a successful start up.
-
- .   ____          _            __ _ _
-/\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
-# db-geolocator-api
-This rest web service allows you to
-- Add a shop in application memory array with its location
 - Find the nearest shop if we supply the location as longitude and latitude
 ---------------------------
 Platform:
@@ -95,4 +63,3 @@ HTTP METHOD    - GET
 HTTP RESPONSE  - 200 OK
 RESPONSE BODY  -
 {"shopName":"Jumbo","shopAddress":{"number":"Groenhof","postCode":"1186"},"shopLongitude":4.870502699999999,"shopLattitude":52.288631}
-
