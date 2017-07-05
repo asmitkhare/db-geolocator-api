@@ -21,8 +21,8 @@ apply plugin: 'eclipse'
 apply plugin: 'spring-boot'
 
 jar {
-    baseName = 'db-retail-manager'
-    version =  '0.1.0'
+    baseName = 'db-geolocator-api'
+    version =  '1.0.0'
 }
 
 repositories {
